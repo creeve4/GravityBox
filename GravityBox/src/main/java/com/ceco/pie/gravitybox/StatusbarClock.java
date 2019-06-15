@@ -279,19 +279,18 @@ public class StatusbarClock implements BroadcastSubReceiver {
                         SimpleDateFormat df = (SimpleDateFormat) SimpleDateFormat.getDateInstance(SimpleDateFormat.SHORT);
                         String pattern = mClockShowDate.equals("localized") ?
                                 df.toLocalizedPattern().replaceAll(".?[Yy].?", "") : mClockShowDate;
-                        date = new SimpleDateFormat(pattern, Locale.getDefault()).format(calendar.getTime()) + " ";
+                        date = " " + new SimpleDateFormat(pattern, Locale.getDefault()).format(calendar.getTime());
                     }
-                    clockText = date + clockText;
                     CharSequence dow = "";
                     // apply day of week only to statusbar clock, not the notification panel clock
                     if (mClockShowDow != GravityBoxSettings.DOW_DISABLED && sbClock != null) {
-                        dow = getFormattedDow(calendar.getDisplayName(
-                                Calendar.DAY_OF_WEEK, Calendar.SHORT, Locale.getDefault())) + " ";
+                        dow = " " + getFormattedDow(calendar.getDisplayName(
+                                Calendar.DAY_OF_WEEK, Calendar.SHORT, Locale.getDefault()));
                     }
-                    clockText = dow + clockText;
+                    clockText = clockText + " " + dow + date;
                     SpannableStringBuilder sb = new SpannableStringBuilder(clockText);
-                    sb.setSpan(new RelativeSizeSpan(mDowSize), 0, dow.length() + date.length(),
-                            Spannable.SPAN_EXCLUSIVE_INCLUSIVE);
+                    sb.setSpan(new RelativeSizeSpan(mDowSize), clockText.length() - (dow.length() + date.length() + 1),
+                            clockText.length(), Spannable.SPAN_EXCLUSIVE_INCLUSIVE);
                     if (amPmIndex > -1) {
                         if(Locale.getDefault().equals(Locale.TAIWAN) || Locale.getDefault().equals(Locale.CHINA)) {
                             sb.setSpan(new RelativeSizeSpan(mAmPmSize), dow.length() + date.length() + amPmIndex,
