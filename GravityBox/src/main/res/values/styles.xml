@@ -20,9 +20,9 @@
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
     <!-- Light application theme -->
-    <style name="AppBaseTheme" parent="android:Theme.Material.Light.DarkActionBar" />
-    <style name="DialogBaseTheme" parent="android:Theme.Material.Light.Dialog" />
-    <style name="AlertDialogBaseTheme" parent="android:Theme.Material.Light.Dialog.Alert" />
+    <style name="AppBaseTheme" parent="android:Theme.Material" />
+    <style name="DialogBaseTheme" parent="android:Theme.Material.Dialog" />
+    <style name="AlertDialogBaseTheme" parent="android:Theme.Material.Dialog.Alert" />
 
     <style name="DialogStyle" parent="DialogBaseTheme" >
         <item name="android:colorAccent">#ff2581df</item>
@@ -42,7 +42,7 @@
     </style>
 
     <!-- Light application AppCompat theme -->
-    <style name="AppCompatBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar" />
+    <style name="AppCompatBaseTheme" parent="Theme.AppCompat" />
 
     <style name="AppCompatTheme" parent="AppCompatBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
