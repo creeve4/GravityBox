@@ -46,7 +46,7 @@ import de.robv.android.xposed.XposedHelpers;
 public class BatteryStyleController implements BroadcastMediator.Receiver {
     private static final String TAG = "GB:BatteryStyleController";
     public static final String PACKAGE_NAME = "com.android.systemui";
-    public static final String CLASS_BATTERY_CONTROLLER = 
+    public static final String CLASS_BATTERY_CONTROLLER =
             "com.android.systemui.statusbar.policy.BatteryControllerImpl";
     public static final String CLASS_BATTERY_METER_VIEW = "com.android.systemui.BatteryMeterView";
     private static final boolean DEBUG = false;
@@ -194,7 +194,7 @@ public class BatteryStyleController implements BroadcastMediator.Receiver {
         mSystemIcons.addView(mCircleBattery, bIconIndex);
         if (DEBUG) log("CmCircleBattery injected");
 
-        // inject percent text 
+        // inject percent text
         TextView percentTextView = new TextView(mContext);
         lParams = new LinearLayout.LayoutParams(
             LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
@@ -210,9 +210,7 @@ public class BatteryStyleController implements BroadcastMediator.Receiver {
                 0);
         percentTextView.setTextColor(Color.WHITE);
         percentTextView.setVisibility(View.GONE);
-        if (!Utils.isOxygenOsRom() && !Utils.isSamsungRom()) {
-            percentTextView.setTypeface(null, Typeface.BOLD);
-        }
+
         mPercentText = new StatusbarBatteryPercentage(percentTextView, mPrefs, this);
         if (mContainerType == ContainerType.HEADER) {
             mPercentText.getView().setOnClickListener((v) -> startPowerUsageSummary());
@@ -289,7 +287,7 @@ public class BatteryStyleController implements BroadcastMediator.Receiver {
             try {
                 Class<?> batteryControllerClass = XposedHelpers.findClass(CLASS_BATTERY_CONTROLLER,
                         mContext.getClassLoader());
-                mHooks.add(XposedHelpers.findAndHookMethod(batteryControllerClass, "onReceive", 
+                mHooks.add(XposedHelpers.findAndHookMethod(batteryControllerClass, "onReceive",
                         Context.class, Intent.class, new XC_MethodHook() {
                     @Override
                     protected void afterHookedMethod(MethodHookParam param) {
