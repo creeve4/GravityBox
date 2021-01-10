@@ -46,8 +46,6 @@
 
     <string name="important">Важливо</string>
 
-    <string name="caller_fullscreen_photo_title">Фото абонента на весь екран</string>
-
     <!-- QuickSettings strings -->
     <string name="quick_settings_sync_on">Синхронізація увімкнена</string>
     <string name="quick_settings_sync_off">Синхронізація вимкнена</string>
@@ -523,12 +521,6 @@
     <string name="pref_pie_color_text_title">Колір тексту</string>
     <string name="pref_pie_color_reset_title">Скинути кольори</string>
 
-    <!-- Custom unknown caller photo -->
-    <string name="pref_caller_unknown_photo_enable_title">Фото для невідомого абонента</string>
-    <string name="pref_caller_unknown_photo_title">Задати фото для невідомого</string>
-    <string name="caller_unknown_photo_result_successful">Фото змінено</string>
-    <string name="caller_unkown_photo_result_not_successful">Фото не змінено</string>
-
     <!-- Minimum screen brightness warning -->
     <string name="screen_brightness_min_warning">Ваш екран може не підтримувати значення менше ніж 20. Якщо ваш екран не засвітиться, затисніть кнопку «Гучність+» як мінімум на 7 секунд для скидання яскравості й потім виправте значення яскравості на більше.</string>
 
@@ -586,19 +578,6 @@
     <string name="screenrecord_toast_processing">Неможливо почати новий запис, оскільки триває обробка попередньої</string>
     <string name="screenrecord_toast_saved">Запис збережено як %s</string>
     <string name="screenrecord_toast_save_error">Неможливо зберегти запис у вихідний файл</string>
-
-    <!-- Show dialpad automatically -->
-    <string name="pref_dialer_show_dialpad_title">Показати панель набору</string>
-    <string name="pref_dialer_show_dialpad_summary">Показ панелі набору відбуватиметься автоматично при відкритті додатку «Телефон»</string>
-
-    <!-- Launcher tweaks -->
-    <string name="pref_cat_launcher_tweaks_title">Налаштування пускача</string>
-    <string name="pref_cat_launcher_tweaks_summary">Лише для стокового пускача та Google Now</string>
-    <string name="pref_cat_launcher_desktop_grid_title">Сітка робочого столу</string>
-    <string name="pref_launcher_desktop_grid_info_title">Використання значень, які відрізняються від типових, може призвести до проблем із віджетами. Використовуйте обачно. Зміни потребують перезавантаження пускача.</string>
-    <string name="pref_launcher_desktop_grid_rows_title">Кількість рядків</string>
-    <string name="pref_launcher_desktop_grid_cols_title">Кількість стовпців</string>
-    <string name="desktop_grid_default">Типово</string>
 
     <!-- HW Key Acctions: toggle screen recording -->
     <string name="hwkey_action_screen_recording">Показник запису</string>
@@ -831,14 +810,6 @@
     <!-- Pie: long press delay -->
     <string name="pref_pie_longpress_delay_title">Затримка утримання</string>
     <string name="pie_longpress_delay_default">Типово</string>
-
-    <!-- GB Actions: Launcher drawer shortcut -->
-    <string name="shortcut_launcher_drawer">Панель пускача</string>
-
-    <!-- Launcher tweaks: resize any widget -->
-    <string name="pref_cat_launcher_other_title">Інше</string>
-    <string name="pref_launcher_resize_widget_title">Зміна віджетів</string>
-    <string name="pref_launcher_resize_widget_summary">Можливість змінювати розмір віджетів на робочому столі (потребує перезапуск пускача)</string>
 
     <!-- Icon picker -->
     <string name="icon_picker_choose_icon_title">Вибрати значок</string>
@@ -1654,13 +1625,6 @@
 
     <!-- Turn off -->
     <string name="turn_off">Вимкнути</string>
-
-    <!-- Force AOSP -->
-    <string name="pref_force_aosp_title">Примусово AOSP</string>
-    <string name="pref_force_aosp_summary">Позначити систему як AOSP. Використовуйте, якщо ваш пристрій ідентифікується як брендована система, хоча насправді це кастомна на базі AOSP</string>
-
-    <!-- Dialer category -->
-    <string name="pref_cat_phone_dialer_title">Набір номеру</string>
 
     <!-- QS: Brightness control -->
     <string name="pref_qs_brightness_icon_title">Показати значок яскравості</string>

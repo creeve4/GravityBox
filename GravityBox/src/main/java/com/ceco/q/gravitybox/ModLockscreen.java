@@ -449,20 +449,11 @@ public class ModLockscreen {
                     ViewGroup kgStatusView = (ViewGroup) XposedHelpers.getObjectField(
                             param.thisObject, "mKeyguardStatusView");
                     Resources res = kgStatusView.getResources();
-                    // try mtk container first
-                    int containerId = res.getIdentifier("mtk_keyguard_clock_container",
-                            "id", PACKAGE_NAME);
-                    if (containerId == 0) {
-                        // fallback to AOSP container
-                        containerId = res.getIdentifier("keyguard_clock_container", "id", PACKAGE_NAME);
-                    }
+                    int containerId = res.getIdentifier("keyguard_status_area", "id", PACKAGE_NAME);
                     if (containerId != 0) {
-                        ViewGroup container;
+                        ViewGroup container = kgStatusView.findViewById(containerId);
                         if (Utils.isSamsungRom()) {
                             container = (ViewGroup) kgStatusView.getChildAt(0);
-                        } else {
-                            container = kgStatusView.findViewById(containerId);
-                            container = (ViewGroup) container.getParent();
                         }
                         if (container != null) {
                             mAppBar = new LockscreenAppBar(mContext, mGbContext, container,
@@ -778,7 +769,7 @@ public class ModLockscreen {
                       GravityBoxSettings.PREF_KEY_LOCKSCREEN_BACKGROUND_COLOR, Color.BLACK);
                 mCustomBg = BitmapUtils.drawableToBitmap(new ColorDrawable(color));
             } else if (bgType.equals(GravityBoxSettings.LOCKSCREEN_BG_IMAGE)) {
-                String wallpaperFile = mGbContext.getFilesDir() + "/lockwallpaper";
+                String wallpaperFile = mPrefs.getFile().getParent() + "/lockwallpaper";
                 mCustomBg = BitmapFactory.decodeFile(wallpaperFile);
             } else if (bgType.equals(GravityBoxSettings.LOCKSCREEN_BG_LAST_SCREEN)) {
                 setLastScreenBackground(false);
@@ -812,7 +803,7 @@ public class ModLockscreen {
 
     private static synchronized void setLastScreenBackground(boolean refresh) {
         try {
-            String kisImageFile = mGbContext.getFilesDir() + "/kis_image.png";
+            String kisImageFile = mPrefs.getFile().getParent() + "/kis_image.png";
             mCustomBg = BitmapFactory.decodeFile(kisImageFile);
             if (refresh) {
                 updateMediaMetaData();

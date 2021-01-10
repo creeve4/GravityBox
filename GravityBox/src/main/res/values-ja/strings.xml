@@ -36,7 +36,6 @@
     <string name="vol_key_cursor_control_on">音量キー上/下で左/右に移動</string>
     <string name="vol_key_cursor_control_on_reverse">音量キー上/下で右/左に移動</string>
     <string name="important">重要</string>
-    <string name="caller_fullscreen_photo_title">発信者の写真を全画面表示</string>
     <!-- QuickSettings strings -->
     <string name="quick_settings_sync_on">同期オン</string>
     <string name="quick_settings_sync_off">同期オフ</string>
@@ -433,11 +432,6 @@
     <string name="pref_pie_color_selected_title">選択したキーの色</string>
     <string name="pref_pie_color_text_title">文字色</string>
     <string name="pref_pie_color_reset_title">色の初期化</string>
-    <!-- Custom unknown caller photo -->
-    <string name="pref_caller_unknown_photo_enable_title">不明な発信者画像を有効化</string>
-    <string name="pref_caller_unknown_photo_title">不明な発信者用の画像をセット</string>
-    <string name="caller_unknown_photo_result_successful">変更しました。</string>
-    <string name="caller_unkown_photo_result_not_successful">変更しませんでした。</string>
     <!-- Minimum screen brightness warning -->
     <string name="screen_brightness_min_warning">20以下の明るさに対応していない画面です。 画面が点灯しなくなった場合、
          音量上キーを7秒以上押し続けると明るさを初期化できるので最低値を修正してください。</string>
@@ -485,17 +479,6 @@
     <string name="screenrecord_toast_processing">前回の録画が進行中なので録画できません。</string>
     <string name="screenrecord_toast_saved">録画を保存しました： %s</string>
     <string name="screenrecord_toast_save_error">録画を保存できませんでした</string>
-    <!-- Show dialpad automatically -->
-    <string name="pref_dialer_show_dialpad_title">ダイアルパッドを自動表示</string>
-    <string name="pref_dialer_show_dialpad_summary">電話アプリを開いた時に自動的にダイアルパッドを表示します。</string>
-    <!-- Launcher tweaks -->
-    <string name="pref_cat_launcher_tweaks_title">ランチャー調整</string>
-    <string name="pref_cat_launcher_tweaks_summary">標準ランチャーとGoogle Now Launcherに適用されます。</string>
-    <string name="pref_cat_launcher_desktop_grid_title">グリッド</string>
-    <string name="pref_launcher_desktop_grid_info_title">デフォルト以外の値を使うとウィジェットのレイアウトが崩れる場合があります。変更後はランチャーを再起動してください。</string>
-    <string name="pref_launcher_desktop_grid_rows_title">行数</string>
-    <string name="pref_launcher_desktop_grid_cols_title">段数</string>
-    <string name="desktop_grid_default">デフォルト</string>
     <!-- HW Key Acctions: toggle screen recording -->
     <string name="hwkey_action_screen_recording">画面録画のトグル</string>
     <!-- Battery percent text -->
@@ -682,12 +665,6 @@
     <!-- Pie: long press delay -->
     <string name="pref_pie_longpress_delay_title">長押しの遅延</string>
     <string name="pie_longpress_delay_default">デフォルト</string>
-    <!-- GB Actions: Launcher drawer shortcut -->
-    <string name="shortcut_launcher_drawer">ホームアプリのドロワー</string>
-    <!-- Launcher tweaks: resize any widget -->
-    <string name="pref_cat_launcher_other_title">その他</string>
-    <string name="pref_launcher_resize_widget_title">ウィジェトをリサイズ可能にする</string>
-    <string name="pref_launcher_resize_widget_summary">ホーム画面でどのウィジェトでもリサイズできるようにします。 (要ホームアプリの再起動)</string>
     <!-- Icon picker -->
     <string name="icon_picker_choose_icon_title">アイコンの選択</string>
     <string name="shortcuts_icon_picker_alarm">アラーム</string>
@@ -1399,7 +1376,6 @@
     <string name="pref_battery_style_header_title">ステータスバーヘッダーに適用</string>
     <string name="pref_battery_tile_temp_title">温度を表示</string>
     <string name="pref_battery_tile_voltage_title">電圧を表示</string>
-    <string name="pref_cat_phone_dialer_title">ダイヤラ</string>
     <string name="pref_cat_qs_bt_tile_title">Bluetoothタイルの設定</string>
     <string name="pref_cat_qs_cell_tile_title">"セルラータイルの設定 "</string>
     <string name="pref_cat_qs_location_tile_title">"位置情報タイル(SlimKat)の設定 "</string>
@@ -1419,7 +1395,6 @@
     <string name="qs_tile_op_screen_resolution">画面の解像度</string>
     <string name="search">検索</string>
     <string name="pref_navbar_custom_key_image_title">画像をセット</string>
-    <string name="pref_force_aosp_title">AOSPを強制</string>
     <string name="pref_imprint_vibe_disable_title">Imprintバイブレーションを無効</string>
     <string name="pref_lc_active_screen_ignore_update_summary">"既存の通知が更新されたときにアクティブ画面を実行しない "</string>
     <string name="pref_lc_active_screen_ignore_update_title">更新された通知を無視</string>
@@ -1528,9 +1503,6 @@
     <string name="pref_log_errors_title">エラーログ</string>
     <string name="pref_lc_notif_hide_persistent_title">永続的な通知を非表示</string>
     <string name="pref_lc_notif_hide_persistent_summary">このアプリからの進行中の通知およびその他のクリアできない通知をすべて非表示にする</string>
-    <string name="pref_force_aosp_summary">システムをAOSPとして扱う。
-        実際に代替のAOSPベースのシステムを実行しているにもかかわらず、
-        カスタムシステムを実行しているとデバイスが識別された場合に使用する（要再起動）</string>
     <string name="pref_lc_led_dnd_dialog_title">じゃましないでモード時にLEDを消灯したままにするのを選択</string>
     <string name="pref_lc_led_dnd_summary">選択したモードのLEDを抑制します</string>
     <string name="pref_lc_led_dnd_title">じゃましないで</string>

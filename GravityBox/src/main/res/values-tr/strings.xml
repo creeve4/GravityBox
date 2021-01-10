@@ -45,8 +45,6 @@
     <string name="vol_key_cursor_control_on_reverse">Ses yukarı/aşağı tuşu imleci sağa/sola taşır</string>
     <string name="important">Önemli</string>
 
-    <string name="caller_fullscreen_photo_title">Tam ekran arayan fotoğrafı</string>
-
     <!-- QuickSettings strings -->
     <string name="quick_settings_sync_on">Senk Açık</string>
     <string name="quick_settings_sync_off">Senk Kapalı</string>
@@ -525,12 +523,6 @@
     <string name="pref_pie_color_text_title">Yazı rengi</string>
     <string name="pref_pie_color_reset_title">Renkleri sıfırla</string>
 
-    <!-- Custom unknown caller photo -->
-    <string name="pref_caller_unknown_photo_enable_title">Bilinmeyen arayan fotoğrafını etkinleştir</string>
-    <string name="pref_caller_unknown_photo_title">Bilinmeyen arayan fotoğrafını ayarla</string>
-    <string name="caller_unknown_photo_result_successful">Fotoğraf değiştirildi</string>
-    <string name="caller_unkown_photo_result_not_successful">Fotoğraf değiştirilmedi</string>
-
     <!-- Minimum screen brightness warning -->
     <string name="screen_brightness_min_warning">"Ekranınız 20'den aşağı değerleri desteklemiyor olabilir. Eğer ekranınız açılmazsa, parlaklığı sıfırlamak için ses açma tuşuna en az 7 saniye boyunca basılı tutun ve minimum değerleri tekrardan ayarlayın."</string>
 
@@ -589,19 +581,6 @@
     <string name="screenrecord_toast_processing">Eski kayıt devam ettiği sürece yeni kayıt başlatılamaz</string>
     <string name="screenrecord_toast_saved">Kayıt şuraya kaydedildi %s</string>
     <string name="screenrecord_toast_save_error">Kayıt çıkış dosyasına yazılamıyor</string>
-
-    <!-- Show dialpad automatically -->
-    <string name="pref_dialer_show_dialpad_title">Tuş takımını otomatik göster</string>
-    <string name="pref_dialer_show_dialpad_summary">Arama uygulaması açıldığında otomatik olarak tuş takımını gösterir</string>
-
-    <!-- Launcher tweaks -->
-    <string name="pref_cat_launcher_tweaks_title">Başlatıcı iyileştirmeleri</string>
-    <string name="pref_cat_launcher_tweaks_summary">Stok başlatıcıya ve Google Now başlatıcısına uygulanır</string>
-    <string name="pref_cat_launcher_desktop_grid_title">Masaüstü ızgarası</string>
-    <string name="pref_launcher_desktop_grid_info_title">Varsayılandan başka değerler kullanmak widgetları bozabilir. Seyrek kullanın. Değişiklikler başlatıcının yeniden başlatılmasını gerektirir.</string>
-    <string name="pref_launcher_desktop_grid_rows_title">Satır sayısı</string>
-    <string name="pref_launcher_desktop_grid_cols_title">Sütun sayısı</string>
-    <string name="desktop_grid_default">Varsayılan</string>
 
     <!-- HW Key Acctions: toggle screen recording -->
     <string name="hwkey_action_screen_recording">Ekran kaydı</string>
@@ -835,14 +814,6 @@
     <!-- Pie: long press delay -->
     <string name="pref_pie_longpress_delay_title">Uzun basma süresi</string>
     <string name="pie_longpress_delay_default">Sistem varsayılanı</string>
-
-    <!-- GB Actions: Launcher drawer shortcut -->
-    <string name="shortcut_launcher_drawer">Uygulama menüsü</string>
-
-    <!-- Launcher tweaks: resize any widget -->
-    <string name="pref_cat_launcher_other_title">Diğer</string>
-    <string name="pref_launcher_resize_widget_title">"Her widget'ı yeniden boyutlandır"</string>
-    <string name="pref_launcher_resize_widget_summary">"Ana ekranda her widget'ı her boyuta ayarla (başlatıcının yeniden başlatılması gerekir)"</string>
 
     <!-- Icon picker -->
     <string name="icon_picker_choose_icon_title">Simge seçin</string>
@@ -1667,13 +1638,6 @@ Devam ederseniz, kendi sorumluluğunuz altındadır ve herhangi bir destek bekle
 
     <!-- Turn off -->
     <string name="turn_off">Kapat</string>
-
-    <!-- Force AOSP -->
-    <string name="pref_force_aosp_title">"AOSP'yi zorla"</string>
-    <string name="pref_force_aosp_summary">Sistem, AOSP gibi davranır. Cihazınızın alternatif AOSP-tabanlı bir sistem çalıştırmasına rağmen markalı sistem çalıştırıyor gibi tanımlanması durumunda kullanın (yeniden başlatma gerektirir)</string>
-
-    <!-- Dialer category -->
-    <string name="pref_cat_phone_dialer_title">Çevirici</string>
 
     <!-- QS: Brightness control -->
     <string name="pref_qs_brightness_icon_title">Parlaklık simgesini göster</string>

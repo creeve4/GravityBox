@@ -28,8 +28,6 @@
 
     <string name="important">Importante</string>
 
-    <string name="caller_fullscreen_photo_title">Foto do contato em tela cheia em ligação</string>
-
     <!-- QuickSettings strings -->
     <string name="quick_settings_sync_on">Sinc. ativada</string>
     <string name="quick_settings_sync_off">Sinc. desativada</string>
@@ -492,12 +490,6 @@
     <string name="pref_pie_color_text_title">Cor do texto</string>
     <string name="pref_pie_color_reset_title">Redefinir cores</string>
 
-    <!-- Custom unknown caller photo -->
-    <string name="pref_caller_unknown_photo_enable_title">Habilitar imagem de contato desconhecido</string>
-    <string name="pref_caller_unknown_photo_title">Definir imagem de contato desconhecido</string>
-    <string name="caller_unknown_photo_result_successful">Foto alterada</string>
-    <string name="caller_unkown_photo_result_not_successful">Foto não alterada</string>
-
     <!-- Minimum screen brightness warning -->
     <string name="screen_brightness_min_warning">Sua tela pode não suportar valores de brilho inferior a 20. Se sua tela não ligar,
         mantenha pressionada a tecla de volume+ por pelo menos 7 segundos para resetar os valores de brilho e ajuste os valores de brilho mínimo para um valor maior</string>
@@ -556,19 +548,6 @@
     <string name="screenrecord_toast_processing">Não pôde iniciar a gravação de tela porque a gravação anterior ainda está sendo processada.</string>
     <string name="screenrecord_toast_saved">Gravação salva como %s</string>
     <string name="screenrecord_toast_save_error">Não pôde salvar o arquivo da gravação</string>
-
-    <!-- Show dialpad automatically -->
-    <string name="pref_dialer_show_dialpad_title">Mostrar teclado automaticamente</string>
-    <string name="pref_dialer_show_dialpad_summary">Mostra o teclado automaticamente quando aberto o aplicativo de Discador</string>
-
-    <!-- Launcher tweaks -->
-    <string name="pref_cat_launcher_tweaks_title">Ajustes do launcher</string>
-    <string name="pref_cat_launcher_tweaks_summary">Aplicam-se ao launcher padrão e ao Google Now Launcher</string>
-    <string name="pref_cat_launcher_desktop_grid_title">Grade da área de trabalho</string>
-    <string name="pref_launcher_desktop_grid_info_title">Usar outros valores que não os padrões pode comprometer o layout dos widgets. Use com cuidado. O launcher deve ser reiniciado para que as mudanças surtam efeito.</string>
-    <string name="pref_launcher_desktop_grid_rows_title">Número de linhas</string>
-    <string name="pref_launcher_desktop_grid_cols_title">Número de colunas</string>
-    <string name="desktop_grid_default">Padrão</string>
 
     <!-- HW Key Acctions: toggle screen recording -->
     <string name="hwkey_action_screen_recording">Alternar gravação de tela</string>
@@ -804,14 +783,6 @@
     <!-- Pie: long press delay -->
     <string name="pref_pie_longpress_delay_title">Atraso ao manter pressionado</string>
     <string name="pie_longpress_delay_default">Padrão</string>
-
-    <!-- GB Actions: Launcher drawer shortcut -->
-    <string name="shortcut_launcher_drawer">Lista de aplicativos</string>
-
-    <!-- Launcher tweaks: resize any widget -->
-    <string name="pref_cat_launcher_other_title">Outros</string>
-    <string name="pref_launcher_resize_widget_title">Redimensionar qualquer widget</string>
-    <string name="pref_launcher_resize_widget_summary">Permite redimensionar qualquer tipo de widget para qualquer tamanho na área de trabalho (necessário reiniciar o inicializador)</string>
 
     <!-- Icon picker -->
     <string name="icon_picker_choose_icon_title">Escolha um ícone</string>

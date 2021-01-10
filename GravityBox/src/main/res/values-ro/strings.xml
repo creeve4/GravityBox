@@ -42,8 +42,6 @@
 
     <string name="important">Important</string>
 
-    <string name="caller_fullscreen_photo_title">Imagine apelant pe tot ecranul</string>
-
     <!-- QuickSettings strings -->
     <string name="quick_settings_sync_on">Sincronizare activată</string>
     <string name="quick_settings_sync_off">Sincronizare dezactivată</string>
@@ -517,12 +515,6 @@
     <string name="pref_pie_color_text_title">Culoarea textului</string>
     <string name="pref_pie_color_reset_title">Resetați culorile</string>
 
-    <!-- Custom unknown caller photo -->
-    <string name="pref_caller_unknown_photo_enable_title">Activați fotografia apelantului necunoscut</string>
-    <string name="pref_caller_unknown_photo_title">Setați o fotografie pentru apelantul necunoscut</string>
-    <string name="caller_unknown_photo_result_successful">Fotografia s-a schimbat</string>
-    <string name="caller_unkown_photo_result_not_successful">Fotografia nu s-a schimbat</string>
-
     <!-- Minimum screen brightness warning -->
     <string name="screen_brightness_min_warning">Este posibil ca ecranul să nu aibă valori mai mici de 20. Dacă ecranul nu se aprinde, țineți apăsat tasta Volume+ timp de cel puțin 7 secunde pentru a reseta luminozitatea și apoi reglaţi luminozitatea minimă utilizând valori mai mari.</string>
 
@@ -580,19 +572,6 @@
     <string name="screenrecord_toast_processing">Nu se poate porni o înregistrarea nouă, deoarece înregistrarea anterioară este încă procesată</string>
     <string name="screenrecord_toast_saved">Înregistrarea a fost salvată ca %s</string>
     <string name="screenrecord_toast_save_error">Imposibil de salvat înregistrarea în fișierul de ieșire</string>
-
-    <!-- Show dialpad automatically -->
-    <string name="pref_dialer_show_dialpad_title">Afișați automat tastatura</string>
-    <string name="pref_dialer_show_dialpad_summary">Afișează automat tastatura la deschiderea aplicației Telefon</string>
-
-    <!-- Launcher tweaks -->
-    <string name="pref_cat_launcher_tweaks_title">Setări lansator</string>
-    <string name="pref_cat_launcher_tweaks_summary">Se aplică pentru lansatorul de stoc și lansatorul Google Now</string>
-    <string name="pref_cat_launcher_desktop_grid_title">Grilă desktop</string>
-    <string name="pref_launcher_desktop_grid_info_title">Folosirea altor valori decât implicit ar putea cauza probleme cu aspectul widget-urilor. Utilizați cu prudenţă. Modificările necesită repornirea lansatorului.</string>
-    <string name="pref_launcher_desktop_grid_rows_title">Număr de rânduri</string>
-    <string name="pref_launcher_desktop_grid_cols_title">Numar de coloane</string>
-    <string name="desktop_grid_default">Implicit</string>
 
     <!-- HW Key Acctions: toggle screen recording -->
     <string name="hwkey_action_screen_recording">Comutați înregistrarea ecranului</string>
@@ -826,14 +805,6 @@
     <!-- Pie: long press delay -->
     <string name="pref_pie_longpress_delay_title">Întârzierea apăsării lungi</string>
     <string name="pie_longpress_delay_default">Implicit</string>
-
-    <!-- GB Actions: Launcher drawer shortcut -->
-    <string name="shortcut_launcher_drawer">Sertar de lansare</string>
-
-    <!-- Launcher tweaks: resize any widget -->
-    <string name="pref_cat_launcher_other_title">Alte</string>
-    <string name="pref_launcher_resize_widget_title">Redimensionați orice widget</string>
-    <string name="pref_launcher_resize_widget_summary">Redimensionați orice widget la orice dimensiune de pe ecranul de start (necesită repornirea lansatorului)</string>
 
     <!-- Icon picker -->
     <string name="icon_picker_choose_icon_title">Alegeți pictograma</string>
@@ -1637,13 +1608,6 @@
 
     <!-- Turn off -->
     <string name="turn_off">Opriți</string>
-
-    <!-- Force AOSP -->
-    <string name="pref_force_aosp_title">Forțare AOSP</string>
-    <string name="pref_force_aosp_summary">Tratează sistemul ca AOSP. Utilizați în cazul în care dispozitivul dvs. este identificat ca fiind un sistem de marcă care rulează, în ciuda faptului că acesta rulează de fapt sistem alternativ bazat pe AOSP (necesită repornire)</string>
-
-    <!-- Dialer category -->
-    <string name="pref_cat_phone_dialer_title">Taste numerice</string>
 
     <!-- QS: Brightness control -->
     <string name="pref_qs_brightness_icon_title">Afișați pictograma luminozității</string>

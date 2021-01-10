@@ -43,8 +43,6 @@
 
     <string name="important">重要</string>
 
-    <string name="caller_fullscreen_photo_title">全螢幕顯示來電者相片</string>
-
     <!-- QuickSettings strings -->
     <string name="quick_settings_sync_on">同步處理 開啟</string>
     <string name="quick_settings_sync_off">同步處理 關閉</string>
@@ -513,12 +511,6 @@
     <string name="pref_pie_color_text_title">文字顏色</string>
     <string name="pref_pie_color_reset_title">重設顏色</string>
 
-    <!-- Custom unknown caller photo -->
-    <string name="pref_caller_unknown_photo_enable_title">啟用未知來電撥號者照片</string>
-    <string name="pref_caller_unknown_photo_title">設定未知來電撥號者照片</string>
-    <string name="caller_unknown_photo_result_successful">照片已更改</string>
-    <string name="caller_unkown_photo_result_not_successful">照片未更改</string>
-
     <!-- Minimum screen brightness warning -->
     <string name="screen_brightness_min_warning">您的裝置可能不支援低於 20 的亮度數值，如果您的裝置螢幕亮不起來，您可以按住 音量 + 鍵 至少 7 秒來重設亮度，並請設定較高的亮度數值。</string>
 
@@ -575,19 +567,6 @@
     <string name="screenrecord_toast_processing">因為前一個錄製尚在處理中，無法開始新的錄製</string>
     <string name="screenrecord_toast_saved">螢幕錄製已儲存至 %s</string>
     <string name="screenrecord_toast_save_error">無法將螢幕錄製輸出成檔案</string>
-
-    <!-- Show dialpad automatically -->
-    <string name="pref_dialer_show_dialpad_title">自動顯示撥號鍵盤</string>
-    <string name="pref_dialer_show_dialpad_summary">當開啟撥號程式時自動開啟撥號鍵盤</string>
-
-    <!-- Launcher tweaks -->
-    <string name="pref_cat_launcher_tweaks_title">啟動器選項</string>
-    <string name="pref_cat_launcher_tweaks_summary">僅套用於原生啟動器與 Google 即時資訊啟動器</string>
-    <string name="pref_cat_launcher_desktop_grid_title">桌面網格</string>
-    <string name="pref_launcher_desktop_grid_info_title">使用其他數值將有可能導致小工具版面發生變異，請謹慎使用 (需要重新啟動啟動器)</string>
-    <string name="pref_launcher_desktop_grid_rows_title">行數</string>
-    <string name="pref_launcher_desktop_grid_cols_title">列數</string>
-    <string name="desktop_grid_default">預設</string>
 
     <!-- HW Key Acctions: toggle screen recording -->
     <string name="hwkey_action_screen_recording">開關螢幕錄製</string>
@@ -822,14 +801,6 @@
     <!-- Pie: long press delay -->
     <string name="pref_pie_longpress_delay_title">長按延遲</string>
     <string name="pie_longpress_delay_default">系統預設</string>
-
-    <!-- GB Actions: Launcher drawer shortcut -->
-    <string name="shortcut_launcher_drawer">啟動器程式抽屜</string>
-
-    <!-- Launcher tweaks: resize any widget -->
-    <string name="pref_cat_launcher_other_title">其他</string>
-    <string name="pref_launcher_resize_widget_title">調整任何小工具</string>
-    <string name="pref_launcher_resize_widget_summary">調整主畫面上的任何小工具至任何大小  (需要重新啟動啟動器) </string>
 
    <!-- Icon picker -->
     <string name="icon_picker_choose_icon_title">選擇圖示</string>

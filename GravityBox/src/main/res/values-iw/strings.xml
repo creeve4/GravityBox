@@ -43,8 +43,6 @@
 
     <string name="important">חשוב</string>
 
-    <string name="caller_fullscreen_photo_title">תמונת משתמש על כל המסך</string>
-
     <!-- QuickSettings strings -->
     <string name="quick_settings_sync_on">סינכרון מופעל</string>
     <string name="quick_settings_sync_off">סינכרון כבוי</string>
@@ -500,12 +498,6 @@
     <string name="pref_pie_color_text_title">צבע טקסט</string>
     <string name="pref_pie_color_reset_title">איפוס צבעים</string>
 
-    <!-- Custom unknown caller photo -->
-    <string name="pref_caller_unknown_photo_enable_title">הפעל תמונה של מתקשר ממספר לא מזוהה</string>
-    <string name="pref_caller_unknown_photo_title">קבע תמונה למתקשר ממספר לא מזוהה</string>
-    <string name="caller_unknown_photo_result_successful">התמונה שונתה</string>
-    <string name="caller_unkown_photo_result_not_successful">התמונה לא שונתה</string>
-
     <!-- Minimum screen brightness warning -->
     <string name="screen_brightness_min_warning">ייתכן ומסך מכשירך לא תומך בערכים פחות מ-20. במידה והמסך שלך אינו נדלק,
         החזק את כפתור הגברת השמע למשך 7 שניות על מנת לאפס את הגדרות הבהירות ולאחר מכן קבע ערכי בהירות גבוהים יותר.</string>
@@ -564,19 +556,6 @@
     <string name="screenrecord_toast_processing">לא ניתן להפעיל הקלטת מסך בעת שהקלטה קודמת עדיין בשלבי עיבוד</string>
     <string name="screenrecord_toast_saved">הקלטה נשמרה בתור %s</string>
     <string name="screenrecord_toast_save_error">לא ניתן ליצור קובץ פלט של הקלטה</string>
-
-    <!-- Show dialpad automatically -->
-    <string name="pref_dialer_show_dialpad_title">הצג חייגן באופן אוטומטי</string>
-    <string name="pref_dialer_show_dialpad_summary">הצג מקשי חיוג באופן אוטומטי בעת פתיחת החייגן</string>
-
-    <!-- Launcher tweaks -->
-    <string name="pref_cat_launcher_tweaks_title">הגדרות לאונצ\'ר</string>
-    <string name="pref_cat_launcher_tweaks_summary">חל על לאונצ\'ר סטוק ועל לאונצ\'ר Google Now</string>
-    <string name="pref_cat_launcher_desktop_grid_title">פריסת רשת של מסכי הבית</string>
-    <string name="pref_launcher_desktop_grid_info_title">שימשו בערכים שונים מערכי ברירת מחדל עלול לשבש תצוגה תקינה של ווידג\'טים. השתמש בחכמה. שינויים דורשים הפעלה מחדש של לאונצ\'ר.</string>
-    <string name="pref_launcher_desktop_grid_rows_title">מספר שורות</string>
-    <string name="pref_launcher_desktop_grid_cols_title">מספר עמודות</string>
-    <string name="desktop_grid_default">ברירת מחדל</string>
 
     <!-- HW Key Acctions: toggle screen recording -->
     <string name="hwkey_action_screen_recording">הפעלה/כיבוי של הקלטת מסך</string>
@@ -812,14 +791,6 @@
     <!-- Pie: long press delay -->
     <string name="pref_pie_longpress_delay_title">השהיית לחיצה ארוכה</string>
     <string name="pie_longpress_delay_default">ברירת מחדל של מערכת</string>
-
-    <!-- GB Actions: Launcher drawer shortcut -->
-    <string name="shortcut_launcher_drawer">מגירת לאונצ\'ר</string>
-
-    <!-- Launcher tweaks: resize any widget -->
-    <string name="pref_cat_launcher_other_title">אחר</string>
-    <string name="pref_launcher_resize_widget_title">שנה גודל של כל ווידג\'ט</string>
-    <string name="pref_launcher_resize_widget_summary">שנה גודל של כל ווידג\'ט במסך הבית (דורש איתחול של לאונצ\'ר)</string>
 
     <!-- HW Key Actions: expand quick settings -->
     <string name="hwkey_action_expand_quicksettings">הרחב תפריט QuickSettings</string>

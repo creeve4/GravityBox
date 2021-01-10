@@ -29,8 +29,6 @@
 
     <string name="important">Dôležité</string>
 
-    <string name="caller_fullscreen_photo_title">Foto volajúceho na celú obrazovku</string>
-
     <!-- QuickSettings strings -->
     <string name="quick_settings_sync_on">Synch zap</string>
     <string name="quick_settings_sync_off">Synch vyp</string>
@@ -503,12 +501,6 @@
     <string name="pref_pie_color_text_title">Farba textu</string>
     <string name="pref_pie_color_reset_title">Resetovať farby</string>
 
-    <!-- Custom unknown caller photo -->
-    <string name="pref_caller_unknown_photo_enable_title">Povoliť foto neznámeho čísla</string>
-    <string name="pref_caller_unknown_photo_title">Nastaviť foto neznámeho čísla</string>
-    <string name="caller_unknown_photo_result_successful">Foto nastavené</string>
-    <string name="caller_unkown_photo_result_not_successful">Foto nebolo nastavené</string>
-
     <!-- Minimum screen brightness warning -->
     <string name="screen_brightness_min_warning">Vaša obrazovka nemusí podporovať hodnoty jasu nižšie ako 20. Ak sa obrazovka nerozsvieti,
         držte tlačidlo Hlasitosť+ po dobu 7 sekúnd pre rozsvietenie obrazovky. Následne zmeňte nastavenie minimálneho jasu na vyššiu hodnotu.</string>
@@ -569,19 +561,6 @@
     <string name="screenrecord_toast_processing">Nie je možné začať nový záznam, pretože prebieha spracovanie predošlého záznamu</string>
     <string name="screenrecord_toast_saved">Záznam uložený ako %s</string>
     <string name="screenrecord_toast_save_error">Nie je možné uložiť záznam do výstupného súboru</string>
-
-    <!-- Show dialpad automatically -->
-    <string name="pref_dialer_show_dialpad_title">Zobraziť ciferník automaticky</string>
-    <string name="pref_dialer_show_dialpad_summary">Zobrazí ciferník automaticky po otvorení aplikácie hovorov</string>
-
-    <!-- Launcher tweaks -->
-    <string name="pref_cat_launcher_tweaks_title">Nastavenia spúšťača</string>
-    <string name="pref_cat_launcher_tweaks_summary">Vzťahuje sa na štandardný Android spúšťač alebo Google Now spúšťač</string>
-    <string name="pref_cat_launcher_desktop_grid_title">Mriežka plochy</string>
-    <string name="pref_launcher_desktop_grid_info_title">Použitie iných ako východzích hodnôt môže spôsobiť narušenie vzhľadu miniaplikácií. Zmeny vyžadujú reštart spúšťača.</string>
-    <string name="pref_launcher_desktop_grid_rows_title">Počet riadkov</string>
-    <string name="pref_launcher_desktop_grid_cols_title">Počet stĺpcov</string>
-    <string name="desktop_grid_default">Štandardný</string>
 
     <!-- HW Key Acctions: toggle screen recording -->
     <string name="hwkey_action_screen_recording">Zapnúť/vypnúť záznam obrazovky</string>
@@ -818,14 +797,6 @@
     <!-- Pie: long press delay -->
     <string name="pref_pie_longpress_delay_title">Oneskorenie dlhého podržania</string>
     <string name="pie_longpress_delay_default">Systémové</string>
-
-    <!-- GB Actions: Launcher drawer shortcut -->
-    <string name="shortcut_launcher_drawer">Zoznam aplikácií spúšťača</string>
-
-    <!-- Launcher tweaks: resize any widget -->
-    <string name="pref_cat_launcher_other_title">Iné</string>
-    <string name="pref_launcher_resize_widget_title">Zmena veľkosti miniaplikácií</string>
-    <string name="pref_launcher_resize_widget_summary">Povolí zmenu veľkosti miniaplikácií na obrazovkách spúšťača (vyžaduje reštart spúšťača)</string>
 
     <!-- Icon picker -->
     <string name="icon_picker_choose_icon_title">Vyberte ikonu</string>
@@ -1642,15 +1613,6 @@
 
     <!-- Turn off -->
     <string name="turn_off">Vypnúť</string>
-
-    <!-- Force AOSP -->
-    <string name="pref_force_aosp_title">Vynútiť AOSP</string>
-    <string name="pref_force_aosp_summary">Považuje systém za AOSP. 
-        Použite v prípade ak GravityBox identifikuje systém s nadstavbou výrobcu 
-        aj napriek tomu, že v skutočnosti je AOSP.</string>
-
-    <!-- Dialer category -->
-    <string name="pref_cat_phone_dialer_title">Dialer</string>
 
     <!-- QS: Brightness control -->
     <string name="pref_qs_brightness_icon_title">Zobraziť ikonu jasu</string>

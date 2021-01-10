@@ -49,8 +49,6 @@
 
     <string name="important">Σημαντικό</string>
 
-    <string name="caller_fullscreen_photo_title">Εικόνα καλούντος σε πλήρη οθόνη</string>
-
     <!-- QuickSettings strings -->
     <string name="quick_settings_sync_on">Συγχρονισμος Ενεργος</string>
     <string name="quick_settings_sync_off">Συγχρονισμος Ανενεργος</string>
@@ -507,12 +505,6 @@
     <string name="pref_pie_color_text_title">Χρώμα κειμένου</string>
     <string name="pref_pie_color_reset_title">Επαναφορά χρωμάτων</string>
 
-    <!-- Custom unknown caller photo -->
-    <string name="pref_caller_unknown_photo_enable_title">Ενεργοποίηση εικόνας άγνωστου καλούντος</string>
-    <string name="pref_caller_unknown_photo_title">Ορισμός εικόνας άγνωστου καλούντος</string>
-    <string name="caller_unknown_photo_result_successful">Η εικόνα άλλαξε</string>
-    <string name="caller_unkown_photo_result_not_successful">Η εικόνα δεν άλλαξε</string>
-
     <!-- Minimum screen brightness warning -->
     <string name="screen_brightness_min_warning">Η οθόνη σας μπορεί να μην υποστηρίζει τιμές μικρότερες από 20. Αν η οθόνη δεν ανάβει,
         κρατείστε το Πάνω πλήκτρο έντασης για 7 δευτερόλεπτα για επαναφορά φωτεινότητας και αλλάξτε την ελάχιστη φωτεινότητα σε μεγαλύτερη τιμή.</string>
@@ -571,19 +563,6 @@
     <string name="screenrecord_toast_processing">Αδυναμία εκ νέου εγγραφής διότι η προηγούμενη επεξεργάζεται ακόμα</string>
     <string name="screenrecord_toast_saved">Η εγγραφή αποθηκεύθηκε ως %s</string>
     <string name="screenrecord_toast_save_error">Αδυναμία αποθήκευσης εγγραφής στο αρχείο εξαγωγής</string>
-
-    <!-- Show dialpad automatically -->
-    <string name="pref_dialer_show_dialpad_title">Εμφάνιση πληκτρολογίου αυτόματα</string>
-    <string name="pref_dialer_show_dialpad_summary">Εμφανίζει το πληκτρολόγιο κλήσεων αυτόματα με το άνοιγμα της εφαρμογής κλήσεων</string>
-
-    <!-- Launcher tweaks -->
-    <string name="pref_cat_launcher_tweaks_title">Αρχική οθόνη</string>
-    <string name="pref_cat_launcher_tweaks_summary">Ισχύει για την stock Αρχική οθόνη και για την Αρχική οθόνη Google Now</string>
-    <string name="pref_cat_launcher_desktop_grid_title">Πλέγμα αρχικής οθόνης</string>
-    <string name="pref_launcher_desktop_grid_info_title">Η χρήση άλλων τιμών από των προκαθορισμένων μπορεί να χαλάσει την διάταξη των widget. Χρήση με προσοχή. Οι αλλαγές χρειάζονται επανεκκίνηση της αρχικής οθόνης.</string>
-    <string name="pref_launcher_desktop_grid_rows_title">Αριθμός γραμμών</string>
-    <string name="pref_launcher_desktop_grid_cols_title">Αριθμός στύλων</string>
-    <string name="desktop_grid_default">Προεπιλεγμένο</string>
 
     <!-- HW Key Acctions: toggle screen recording -->
     <string name="hwkey_action_screen_recording">Εναλλαγή εγγραφής οθόνης</string>
@@ -819,14 +798,6 @@
     <!-- Pie: long press delay -->
     <string name="pref_pie_longpress_delay_title">Καθυστέριση παρατετ. αγγίγματος</string>
     <string name="pie_longpress_delay_default">Προεπιλογή συστήματος</string>
-
-    <!-- GB Actions: Launcher drawer shortcut -->
-    <string name="shortcut_launcher_drawer">Συρτάρι εφαρμογών</string>
-
-    <!-- Launcher tweaks: resize any widget -->
-    <string name="pref_cat_launcher_other_title">Άλλα</string>
-    <string name="pref_launcher_resize_widget_title">Αλλαγή μεγέθους σε όλα τα widget</string>
-    <string name="pref_launcher_resize_widget_summary">Αλλάξτε το μέγεθος οποιουδήποτε widget σε οποιοδήποτε μέγεθος στην αρχική οθόνη (απαιτείται επανεκκίνηση αρχικής οθόνης)</string>
 
     <!-- Icon picker -->
     <string name="icon_picker_choose_icon_title">Επιλογή εικονιδίου</string>

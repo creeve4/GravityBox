@@ -48,8 +48,6 @@
 
     <string name="important">Important</string>
 
-    <string name="caller_fullscreen_photo_title">Fullscreen caller photo</string>
-
     <!-- QuickSettings strings -->
     <string name="quick_settings_sync_on">Sync On</string>
     <string name="quick_settings_sync_off">Sync Off</string>
@@ -531,12 +529,6 @@
     <string name="pref_pie_color_text_title">Text color</string>
     <string name="pref_pie_color_reset_title">Reset colors</string>
 
-    <!-- Custom unknown caller photo -->
-    <string name="pref_caller_unknown_photo_enable_title">Enable unknown caller photo</string>
-    <string name="pref_caller_unknown_photo_title">Set unknown caller photo</string>
-    <string name="caller_unknown_photo_result_successful">Photo changed</string>
-    <string name="caller_unkown_photo_result_not_successful">Photo not changed</string>
-
     <!-- Minimum screen brightness warning -->
     <string name="screen_brightness_min_warning">Your screen might not support values lower than 20. If your screen doesn\'t light up,
         hold Volume+ key for at least 7 seconds to reset brightness and then adjust minimum brightness to use higher values.</string>
@@ -597,19 +589,6 @@
     <string name="screenrecord_toast_processing">Cannot start new recording as previous recording is still being processed</string>
     <string name="screenrecord_toast_saved">Recording saved as %s</string>
     <string name="screenrecord_toast_save_error">Unable to save recording to output file</string>
-
-    <!-- Show dialpad automatically -->
-    <string name="pref_dialer_show_dialpad_title">Show dialpad automatically</string>
-    <string name="pref_dialer_show_dialpad_summary">Shows dialpad automatically upon opening dialer app</string>
-
-    <!-- Launcher tweaks -->
-    <string name="pref_cat_launcher_tweaks_title">Launcher tweaks</string>
-    <string name="pref_cat_launcher_tweaks_summary">Applies to stock launcher and Google Now launcher</string>
-    <string name="pref_cat_launcher_desktop_grid_title">Desktop grid</string>
-    <string name="pref_launcher_desktop_grid_info_title">Using other values than default may break widgets\' layout. Use wisely. Changes require launcher to be restarted.</string>
-    <string name="pref_launcher_desktop_grid_rows_title">Number of rows</string>
-    <string name="pref_launcher_desktop_grid_cols_title">Number of columns</string>
-    <string name="desktop_grid_default">Default</string>
 
     <!-- HW Key Acctions: toggle screen recording -->
     <string name="hwkey_action_screen_recording">Toggle screen recording</string>
@@ -847,14 +826,6 @@
     <!-- Pie: long press delay -->
     <string name="pref_pie_longpress_delay_title">Long-press delay</string>
     <string name="pie_longpress_delay_default">System default</string>
-
-    <!-- GB Actions: Launcher drawer shortcut -->
-    <string name="shortcut_launcher_drawer">Launcher drawer</string>
-
-    <!-- Launcher tweaks: resize any widget -->
-    <string name="pref_cat_launcher_other_title">Other</string>
-    <string name="pref_launcher_resize_widget_title">Resize any widget</string>
-    <string name="pref_launcher_resize_widget_summary">Resize any widget to any size on the homescreen (requires launcher restart)</string>
 
     <!-- Icon picker -->
     <string name="icon_picker_choose_icon_title">Choose icon</string>
@@ -1701,15 +1672,6 @@
 
     <!-- Turn off -->
     <string name="turn_off">Turn off</string>
-
-    <!-- Force AOSP -->
-    <string name="pref_force_aosp_title">Force AOSP</string>
-    <string name="pref_force_aosp_summary">Treats system as AOSP. 
-        Use in case your device is identified as running branded system despite it is
-        actually running alternate AOSP-based system (requires reboot)</string>
-
-    <!-- Dialer category -->
-    <string name="pref_cat_phone_dialer_title">Dialer</string>
 
     <!-- QS: Brightness control -->
     <string name="pref_qs_brightness_icon_title">Show brightness icon</string>
