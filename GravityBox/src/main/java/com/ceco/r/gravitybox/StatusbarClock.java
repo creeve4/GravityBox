@@ -218,7 +218,7 @@ public class StatusbarClock implements BroadcastMediator.Receiver {
     public void setClockVisibility(boolean show) {
         if (mClock != null) {
             mClock.setVisibility(show && !mClockHidden ? View.VISIBLE : View.GONE);
-            if (mClock.getVisibility() == View.VISIBLE) { 
+            if (mClock.getVisibility() == View.VISIBLE) {
                 if (mSecondsHandler != null) {
                     mSecondsHandler.postAtTime(mSecondTick,
                             SystemClock.uptimeMillis() / 1000 * 1000 + 1000);
@@ -295,19 +295,18 @@ public class StatusbarClock implements BroadcastMediator.Receiver {
                         SimpleDateFormat df = (SimpleDateFormat) SimpleDateFormat.getDateInstance(SimpleDateFormat.SHORT);
                         String pattern = mClockShowDate.equals("localized") ?
                                 df.toLocalizedPattern().replaceAll(".?[Yy].?", "") : mClockShowDate;
-                        date = new SimpleDateFormat(pattern, Locale.getDefault()).format(calendar.getTime()) + " ";
+                        date = " " + new SimpleDateFormat(pattern, Locale.getDefault()).format(calendar.getTime());
                     }
-                    clockText = date + clockText;
                     CharSequence dow = "";
                     // apply day of week only to statusbar clock, not the notification panel clock
                     if (mClockShowDow != GravityBoxSettings.DOW_DISABLED && isStatusbarClock) {
-                        dow = getFormattedDow(calendar.getDisplayName(
-                                Calendar.DAY_OF_WEEK, Calendar.SHORT, Locale.getDefault())) + " ";
+                        dow = " " + getFormattedDow(calendar.getDisplayName(
+                            Calendar.DAY_OF_WEEK, Calendar.SHORT, Locale.getDefault()));
                     }
-                    clockText = dow + clockText;
+                    clockText = clockText + " " + dow + date;
                     SpannableStringBuilder sb = new SpannableStringBuilder(clockText);
-                    sb.setSpan(new RelativeSizeSpan(mDowSize), 0, dow.length() + date.length(),
-                            Spannable.SPAN_EXCLUSIVE_INCLUSIVE);
+                    sb.setSpan(new RelativeSizeSpan(mDowSize), clockText.length() - (dow.length() + date.length() + 1),
+                            clockText.length(), Spannable.SPAN_EXCLUSIVE_INCLUSIVE);
                     if (amPmIndex > -1) {
                         if(Locale.getDefault().equals(Locale.TAIWAN) || Locale.getDefault().equals(Locale.CHINA)) {
                             sb.setSpan(new RelativeSizeSpan(mAmPmSize), dow.length() + date.length() + amPmIndex,
@@ -332,7 +331,7 @@ public class StatusbarClock implements BroadcastMediator.Receiver {
 
     private String getFormattedDow(String inDow) {
         switch (mClockShowDow) {
-            case GravityBoxSettings.DOW_LOWERCASE: 
+            case GravityBoxSettings.DOW_LOWERCASE:
                 return inDow.toLowerCase(Locale.getDefault());
             case GravityBoxSettings.DOW_UPPERCASE:
                 return inDow.toUpperCase(Locale.getDefault());
