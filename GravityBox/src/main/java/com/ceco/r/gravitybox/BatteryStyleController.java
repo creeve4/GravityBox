@@ -210,7 +210,12 @@ public class BatteryStyleController implements BroadcastMediator.Receiver {
                 0);
         percentTextView.setTextColor(Color.WHITE);
         percentTextView.setVisibility(View.GONE);
-
+        int taResId = res.getIdentifier("TextAppearance.StatusBar.Clock", "style", PACKAGE_NAME);
+        if (taResId != 0) {
+            percentTextView.setTextAppearance(taResId);
+        } else if (!Utils.isOxygenOsRom() && !Utils.isSamsungRom()) {
+            percentTextView.setTypeface(null, Typeface.BOLD);
+        }
         mPercentText = new StatusbarBatteryPercentage(percentTextView, mPrefs, this);
         if (mContainerType == ContainerType.HEADER) {
             mPercentText.getView().setOnClickListener((v) -> startPowerUsageSummary());
@@ -218,7 +223,8 @@ public class BatteryStyleController implements BroadcastMediator.Receiver {
                 mPercentText.setTextColor(headerFillColor.getDefaultColor());
             }
         }
-        mSystemIcons.addView(mPercentText.getView(), mBatteryPercentTextOnRight ? bIconIndex+2 : bIconIndex);
+        mSystemIcons.addView(mPercentText.getView(), mBatteryPercentTextOnRight ?
+                Math.min(mSystemIcons.getChildCount(), bIconIndex+2) : bIconIndex);
         if (DEBUG) log("Battery percent text injected");
     }
 
