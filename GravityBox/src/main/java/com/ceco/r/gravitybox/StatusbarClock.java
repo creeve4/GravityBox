@@ -300,7 +300,7 @@ public class StatusbarClock implements BroadcastMediator.Receiver {
                     }
                     clockText = clockText + " " + dow + date;
                     SpannableStringBuilder sb = new SpannableStringBuilder(clockText);
-                    sb.setSpan(new RelativeSizeSpan(mDowSize), clockText.length() - (dow.length() + date.length() + 1),
+                    sb.setSpan(new RelativeSizeSpan(mDowSize), clockText.length() - (dow.length() + date.length()),
                             clockText.length(), Spannable.SPAN_EXCLUSIVE_INCLUSIVE);
                     if (amPmIndex > -1) {
                         if(Locale.getDefault().equals(Locale.TAIWAN) || Locale.getDefault().equals(Locale.CHINA)) {
